@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(244, 244, 249);
+    color: rgb(45, 52, 54);
+    margin: 0;
+    background-image: url(../IMAGES/images.png);
+}
+
+nav.nav-ecommerce {
+    background-color: rgb(44, 62, 80);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main.main-ecommerce {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.productos-catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.producto-card {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.producto-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.producto-card h3 {
+    margin-top: 0;
+}
+
+.precio {
+    color: rgb(231, 76, 60);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+aside.aside-ecommerce {
+    background-color: rgb(236, 240, 241);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(52, 73, 94);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
